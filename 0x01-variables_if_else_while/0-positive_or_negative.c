@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Entry point of the program
  *
- * Always return 0
+ * Always 0 (Success)
  */
 int main(void)
 {
@@ -21,6 +22,8 @@ int main(void)
 	{
 		printf("is zero");
 	}
+	
 	printf("\n");
+	
 	return (0);
 }

@@ -1,6 +1,11 @@
-#include "_putchar.c"
+#include "main.h"
+/**
+ * main - printing _putchar task zero
+ * Description: I am tired
+ * Return; Always 0
+ */
 
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');

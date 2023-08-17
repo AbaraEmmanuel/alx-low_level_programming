@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - check the code.
  *
@@ -5,7 +7,7 @@
  */
 int main(void)
 {
-       	int r;
+	int r;
 
 	r = print_sign(98);
 	_putchar(',');

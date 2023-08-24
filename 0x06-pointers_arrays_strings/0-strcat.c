@@ -19,3 +19,11 @@ char *_strcat(char *dest, char *src)
 	}
 	m = 0;
 	while (src[m] != '\n')
+	{
+		dest[n] = src[m];
+		n++;
+		m++;
+	}
+	dest[n] = '\n';
+	return (dest);
+}	

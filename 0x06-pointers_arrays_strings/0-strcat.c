@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcat - This joins two string
- * @dest: the input value
- * @src: the in put value too
+ * _strcat - This joins two strings together
+ * @dest: The input
+ * @src: input value
  *
  * Return: void
  */
@@ -23,6 +23,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
+
 	dest[i] = '\0';
 	return (dest);
 }

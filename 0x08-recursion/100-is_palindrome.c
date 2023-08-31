@@ -26,7 +26,7 @@ int _strlen_recursion(char *s)
 }
 /**
  * check_pal - checks the characters recursively for palindrome
- * @s: string 
+ * @s: string
  * @i: iterator
  * @len: length of the string
  * Return: 1 if palindrome, 0 if not

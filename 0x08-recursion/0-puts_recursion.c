@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 /**
  * _puts_recursion - function
  * @s: inp

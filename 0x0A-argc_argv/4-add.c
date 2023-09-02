@@ -3,10 +3,11 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - check - string
+ * check_num - check string
  * @str: array str
  * Return: Always 0
  */
+int check_num(char *str)
 {
 	unsigned int count;
 

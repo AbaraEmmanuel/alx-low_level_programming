@@ -3,9 +3,9 @@
 #include <stdio.h>
 #define ERR_MSG "Error"
 /**
- *  is_digit - checks if a string contains a non-digit 
- *  @s: string to be evaluated
- *  Return: 0 if a non-digit is found, 1 otherwise
+ * is_digit - checks if a string contains a non-digit
+ * @s: string to be evaluate
+ * Return: 0 if a non-digit is found, 1 otherwise
  */
 int is_digit(char *s)
 {

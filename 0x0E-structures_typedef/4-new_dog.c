@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
 /**
@@ -7,13 +8,13 @@
  */
 int _strlen(char *s)
 {
-	int m;
+	int i;
 
-	m = 0;
+	i = 0;
 
-	while (s[m] != '\0')
+	while (s[i] != '\0')
 	{
-		m++;
+		i++;
 	}
-	return (m);
+	return (i);
 }
